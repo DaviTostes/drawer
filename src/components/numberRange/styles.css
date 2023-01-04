@@ -62,6 +62,19 @@
   transform: translate(-50%, 0);
 
   font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nr-result-wrapper p {
+  margin-bottom: 10px;
+}
+
+.nr-result-wrapper .result {
+  font-size: 32px;
 }
 
 

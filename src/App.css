@@ -102,3 +102,10 @@ button:active {
   border: none;
   border-radius: 20px;
 }
+
+footer {
+  position: absolute;
+  left: 50%;
+  top: 99%;
+  transform: translate(-50%, -100%);
+}

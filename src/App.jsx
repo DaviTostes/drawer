@@ -68,6 +68,9 @@ function App() {
         </div>
         <button className="return" onClick={handleChangeToIP}>Return</button>
       </div>
+      <footer>
+        <p>Made by <a href="https://github.com/DaviTostes" target='_blank'>Davi Tostes</a></p>
+      </footer>
     </div>
   )
 }
