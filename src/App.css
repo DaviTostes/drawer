@@ -43,7 +43,7 @@
   justify-content: center;
 }
 
-.ip-wrapper, .nr-wrapper {
+.ip-wrapper, .nr-wrapper, .dc-wrapper {
   height: 100%;
   width: 100%;
 }
@@ -83,9 +83,6 @@ button:hover {
   
 button:active {
   filter: opacity(0.4);
-}
-
-.options-wrapper button:active {
   outline: 2px solid #5BC0BE;
 }
 

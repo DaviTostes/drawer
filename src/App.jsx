@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import NumberRange from './components/numberRange'
+import Dices from './components/dices'
 
 function App() {
   const [stage, setStage] = useState('ip')
@@ -63,6 +64,7 @@ function App() {
           <NumberRange />
         </div>
         <div className="dc-wrapper">
+          <Dices />
         </div>
         <div className="lw-wrapper">
         </div>
