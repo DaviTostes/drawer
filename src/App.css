@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+
+  background-color: #0B132B;
+}
+
+.App header {
+  width: 100vw;
+  height: 5%;
+
+  background-color: #1C2541;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.2em;
+}
+
+.drawer-wrapper {
+  position: relative;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+
+  height: 80%;
+  width: 80%;
+
+  border: none;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.ip-wrapper, .nr-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.ip-wrapper h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.options-wrapper {
+  height: 30%;
+  width: 30%;
+
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.options-wrapper button {
+  height: 20%;
+  width: 30%;
+    
+  color: aliceblue;
+  background-color: #2d3b65;
+  border: none;
+  border-radius: 20px;
+}
+
+button:hover {
+  filter: opacity(0.7);
+}
+  
+button:active {
+  filter: opacity(0.4);
+}
+
+.options-wrapper button:active {
+  outline: 2px solid #5BC0BE;
+}
+
+.return {
+  position: absolute;
+  left: 30%;
+  top: 70%;
+
+  height: 5%;
+  width: 10%;
+    
+  color: aliceblue;
+  background-color: #2d3b65;
+  border: none;
+  border-radius: 20px;
+}

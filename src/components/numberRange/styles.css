@@ -1,0 +1,73 @@
+.numberRange {
+  height: 100%;
+  width: 100%;
+}
+
+.numberRange h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.nr-input-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, 0);
+
+  width: 20%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.nr-input-wrapper input {
+  color: black;
+
+  height: 60px;
+  width: 40%;
+
+  font-size: 32px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.nr-input-wrapper input::placeholder {
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.numberRange button {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, 0);
+
+  height: 5%;
+  width: 6%;
+
+  color: black;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+
+.nr-result-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0);
+
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
